@@ -6,6 +6,9 @@
     --primary-color: #b99e00;
 
   }
+  html{
+    scroll-behavior: smooth;
+  }
   
 *{
   box-sizing: border-box;
@@ -51,7 +54,7 @@ p{
 
 .m-heading{
   font-size: 2rem;
-  margin-bottom: 0.75rem;
+  margin: 1.5rem 0;
   line-height: 1.1;
 }
 
@@ -85,6 +88,8 @@ p{
 .p-1{padding: 1.5rem;}
 .p-2{padding: 2rem;}
 .p-3{padding: 3rem;}
+
+.pt-3{padding: 3rem 0 1.5rem 0}
 
 
 .bg-dark{
