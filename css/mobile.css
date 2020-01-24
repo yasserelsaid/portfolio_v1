@@ -1,6 +1,7 @@
 @media(max-width:500px){
   #navbar{
     padding: 1.75rem 5%;
+    justify-content: center;
   }
   #navbar .logo{
     display: none;
@@ -11,6 +12,13 @@
 
     margin-top: -73px;
   }
+  #projects .two-buttons{
+    display: block;
+  }
+  #projects  .two-buttons .btn{
+   width: 100%;
+  }
+  
 }
 
   #skills .items{
