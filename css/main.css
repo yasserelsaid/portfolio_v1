@@ -25,7 +25,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 p{
@@ -67,6 +67,7 @@ p{
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 0.25rem;
+  text-align: center;
 }
 
 .btn:hover{
@@ -350,3 +351,83 @@ border-radius: 10px;
 #main-footer .social i:hover{
   background: var(--primary-color);
 }
+
+/* popups */
+
+.popups{
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+
+.popup-content{
+  width: 75%;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 2rem 4rem rgba(0,0,0,.4);
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  opacity: 0;
+  transform: translate(-50%,-50%) scale(.25);
+  transition: all .5s .2s;
+
+}
+
+/* open states */
+.popups:target{
+  opacity: 1;
+  visibility: visible;
+}
+
+.popups:target .popup-content{
+  opacity: 1;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup-left{
+flex: 2;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 1rem;
+
+
+}
+.popup-left .popup-img{
+  display: block;
+  width: 100%;
+}
+.popup-right{
+ flex: 1;
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+
+
+
+
+
+.popup-close{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  line-height: 1;
+}
+
+
