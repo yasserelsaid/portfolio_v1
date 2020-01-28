@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" media=" screen and (max-width:768px)" href="css/mobile.css">
+
   <title>Yasser's Portfolio</title>
 </head>
 
@@ -17,7 +22,7 @@
 
     <a href="#home">
       <h1 class="logo">
-        <span class="text-primary">
+        <span class="my-text-primary">
           Y</span>E
       </h1>
     </a>
@@ -33,8 +38,8 @@
 
   <header id="showcase">
     <div class="showcase-content">
-      <h1 class="l-heading">
-        <span class="text-primary">YASSER</span> <svg id="elsaid" width="204" height="50" viewBox="0 0 204 50"
+      <h1 class="my-l-heading">
+        <span class="my-text-primary">YASSER</span> <svg id="elsaid" width="204" height="50" viewBox="0 0 204 50"
           fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M27 26.9688H7.28125V43.0938H30.1875V48H1.28125V2.5H29.875V7.4375H7.28125V22.0625H27V26.9688Z"
             stroke="white" stroke-width="2" />
@@ -55,46 +60,46 @@
       <p class="lead">
         COMPUTER SCIENCE STUDENT
       </p>
-      <a href="#projects" class="btn">View My Projects</a>
+      <a href="#projects" class="my-btn">View My Projects</a>
     </div>
   </header>
 
   <section id="skills" class="bg-light py-1">
 
     <div class="container">
-      <h2 class="m-heading text-center pt-3">SKILLS </h2>
+      <h2 class="my-m-heading text-center pt-3">SKILLS </h2>
 
       <div class="items">
         <div class="item">
           <img src="./img/html5-icon-12117 (1).png" alt="">
-          <h3>HTML5</h3>
+          <h4>HTML5</h4>
         </div>
 
         <div class="item">
           <img src="./img/iconfinder_css3_294692.png" alt="">
-          <h3>CSS3</h3>
+          <h4>CSS3</h4>
         </div>
 
         <div class="item">
           <img src="./img/JS.png" alt="">
-          <h3>Javascript</h3>
+          <h4>Javascript</h4>
         </div>
 
         <div class="item">
           <img src="./img/C++.png" alt="">
-          <h3>C++</h3>
+          <h4>C++</h4>
         </div>
 
 
         <div class="item">
           <img src="./img/git.png" alt="">
-          <h3>Git</h3>
+          <h4>Git</h4>
         </div>
 
 
         <div class="item">
-          <img src="./img/GitHub-Mark-120px-plus.png" alt="">
-          <h3>Github</h3>
+          <img src="./img/sass.png" alt="">
+          <h4>Sass</h4>
         </div>
 
 
@@ -105,7 +110,7 @@
 
   <section id="projects" class="bg-light py-1">
     <div class="container">
-      <h2 class="m-heading text-center pt-3 ">PROJECTS </h2>
+      <h2 class="my-m-heading text-center pt-3 ">PROJECTS </h2>
 
       <div class="projects py-1">
 
@@ -118,12 +123,12 @@
             <figure class="project-showcase">
               <img class="project-img" src="./img/archeryhubscreenshotdesktop.png" alt="">
               <figcaption class="project-caption">
-                <a href="#popup" class="btn">QUICK VIEW</a>
+                <a href="#popup-archery" class="my-btn">QUICK VIEW</a>
               </figcaption>
             </figure>
             <div class="two-buttons">
-              <a href="" class="btn text-center"><i class="fa fa-eye"></i> View Website</a>
-              <a href="https://github.com/yasserelsaeed/archeryhub" class="btn btn-dark text-center " target="_blank"><i
+              <a href="" class="my-btn text-center"><i class="fa fa-eye"></i> View Website</a>
+              <a href="https://github.com/yasserelsaeed/archeryhub" class="my-btn my-btn-dark text-center " target="_blank"><i
                   class="fab fa-github"></i> View on Github</a>
             </div>
           </div>
@@ -136,11 +141,11 @@
           <div class="project-content">
             <figure class="project-showcase">
               <img class="project-img" src="./img/portfoliodesktop.png" alt="">
-              <figcaption class="project-caption">
-                <div class="btn">QUICK VIEW</div>
-              </figcaption>
+              <!-- <figcaption class="project-caption">
+                <div class="my-btn">QUICK VIEW</div>
+              </figcaption> -->
             </figure>
-            <a href="https://github.com/yasserelsaeed/portfolio_v1" class="btn btn-dark text-center"><i
+            <a href="https://github.com/yasserelsaeed/portfolio_v1" class="my-btn my-btn-dark text-center"><i
                 class="fab fa-github" target="_blank"></i> View on Github</a>
           </div>
         </div>
@@ -153,10 +158,10 @@
             <figure class="project-showcase">
               <img class="project-img" src="./img/paintdesktop.png" alt="">
               <figcaption class="project-caption">
-                <div class="btn">QUICK VIEW</div>
+                <a href="#popup-paint" class="my-btn">QUICK VIEW</a>
               </figcaption>
             </figure>
-            <a href="https://github.com/yasserelsaeed/PaintForKids" class="btn btn-dark text-center" target="_blank"><i
+            <a href="https://github.com/yasserelsaeed/PaintForKids" class="my-btn my-btn-dark text-center" target="_blank"><i
                 class="fab fa-github"></i> View on Github</a>
           </div>
         </div>
@@ -168,11 +173,11 @@
           <div class="project-content">
             <figure class="project-showcase">
               <img class="project-img" src="./img/deliverydesktop.png" alt="">
-              <figcaption class="project-caption">
-                <div class="btn">QUICK VIEW</div>
-              </figcaption>
+              <!-- <figcaption class="project-caption">
+                <div class="my-btn">QUICK VIEW</div>
+              </figcaption> -->
             </figure>
-            <a href="https://github.com/yasserelsaeed/DeliverySystem" class="btn btn-dark text-center"
+            <a href="https://github.com/yasserelsaeed/DeliverySystem" class="my-btn my-btn-dark text-center"
               target="_blank"><i class="fab fa-github"></i> View on Github</a>
           </div>
         </div>
@@ -189,7 +194,7 @@
 
   <section id="contact-form" class="bg-light">
     <div class="container">
-      <h2 class="m-heading text-center pt-3 ">GET IN TOUCH</h2>
+      <h2 class="my-m-heading text-center pt-3 ">GET IN TOUCH</h2>
       <p>Please fill out the form below to contact me.</p>
 
 
@@ -213,7 +218,7 @@
           <textarea name="message" id="message"></textarea>
         </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="my-btn">Submit</button>
 
       </form>
     </div>
@@ -228,26 +233,129 @@
   </footer>
 
 
-  <!-- project popups -->
-  <div class="popups" id="popup">
+  <!-- archery hub popup -->
+  <div class="popups" id="popup-archery">
     <div class="popup-content">
       <div class="popup-left">
-        <img src="./img/archeryhub1.png" alt="ArcheryHub" class="popup-img">
-        <img src="./img/archeryhub2.png" alt="ArcheryHub" class="popup-img">
-        <img src="./img/archeryhub3.png" alt="ArcheryHub" class="popup-img">
-        <img src="./img/archeryhub4.png" alt="ArcheryHub" class="popup-img">
+        <div id="archery-slider" class="carousel slide" data-ride="carousel">
+
+          <!--dot nav -->
+          <ol class="carousel-indicators">
+            <li data-target="#archery-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#archery-slider" data-slide-to="1"></li>
+            <li data-target="#archery-slider" data-slide-to="2"></li>
+            <li data-target="#archery-slider" data-slide-to="3"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./img/archeryhub1.png" alt="Archery Hub">
+
+            </div>
+            <div class="item">
+              <img src="./img/archeryhub2.png" alt="Archery Hub">
+
+            </div>
+            <div class="item">
+              <img src="./img/archeryhub3.png" alt="Archery Hub">
+
+            </div>
+            <div class="item">
+              <img src="./img/archeryhub4.png" alt="Archery Hub">
+
+            </div>
+          </div>
+
+          
+
+          <!-- controls -->
+          <a href="#archery-slider" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#archery-slider" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+
+
+        </div>
+
+    
+
       </div>
       <div class="popup-right">
         <a href="#!" class="popup-close">&times;</a>
         <div class="popup-description">
-          <h2 class="m-heading text-primary">Archery Hub</h2>
+          <h2 class="my-m-heading my-text-primary">Archery Hub</h2>
           <p> Archery Hub is a Website for a real archery academy in Egypt.</p>
           <p class="tech-used">HTML, CSS, Javascript</p>
 
         </div>
+      </div>
 
-        
 
+    </div>
+  </div>
+
+<!-- paint popup -->
+  <div class="popups" id="popup-paint">
+    <div class="popup-content">
+      <div class="popup-left">
+        <div id="paint-slider" class="carousel slide" data-ride="carousel">
+
+          <!--dot nav -->
+          <ol class="carousel-indicators">
+            <li data-target="#paint-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#paint-slider" data-slide-to="1"></li>
+            <li data-target="#paint-slider" data-slide-to="2"></li>
+            <li data-target="#paint-slider" data-slide-to="3"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./img/paint0.png" alt="paint">
+
+            </div>
+            <div class="item">
+              <img src="./img/paint1.png" alt="paint">
+
+            </div>
+            <div class="item">
+              <img src="./img/paint2.png" alt="Archery Hub">
+
+            </div>
+            <div class="item">
+              <img src="./img/paint3.png" alt="Archery Hub">
+
+            </div>
+           
+          </div>
+
+          
+
+          <!-- controls -->
+          <a href="#paint-slider" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#paint-slider" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+
+
+        </div>
+
+     
+
+      </div>
+      <div class="popup-right">
+        <a href="#!" class="popup-close">&times;</a>
+        <div class="popup-description">
+          <h2 class="my-m-heading my-text-primary">Paint For Kids</h2>
+          <p> This project is a paint replica that is used to teach children about different shapes and colors in a fun way.</p>
+          <p class="tech-used">C++</p>
+
+        </div>
       </div>
 
 
@@ -255,8 +363,10 @@
   </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  
+
   <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
   <script src="./JS/main.js"></script>
 </body>

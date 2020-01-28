@@ -8,7 +8,7 @@ window.addEventListener('scroll', function(){
 
 //smooth scrolling
 
-// $('#navbar a, .btn').on('click', function(event){
+// $('#navbar a, .my-btn').on('click', function(event){
 //   if(this.hash!==''){
 //     event.preventDefault();
 
