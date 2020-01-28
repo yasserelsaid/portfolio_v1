@@ -40,9 +40,13 @@
 .popup-description h2{
   text-align: center;
 }
-.popup-close{
-  color: #816e01;
+
+/* changing order */
+
+.popup-right{
+  order: 1;
 }
-.popup-close:hover{
-  color: #6b5b01;
+
+.popup-left{
+  order: 2;
 }
