@@ -459,6 +459,9 @@ color: var(--my-primary-color);
 /* specaial styling for each popup */
 
 #popup-archery h2{
+  color: #333;
+}
+#popup-archery h2 span{
   color: #d17b24;
 }
 
