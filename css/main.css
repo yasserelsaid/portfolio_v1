@@ -34,7 +34,7 @@ p{
 }
 
 /* utility classes */
-.container{
+.my-container{
   max-width: 1100px;
   margin: auto;
   padding: 0 3rem;
@@ -321,25 +321,25 @@ border-radius: 10px;
 
 /* contact-form */
 #contact-form{
-  padding: 20px;
+  padding: 2rem 0;
 }
 #contact-form .form-group{
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 #contact-form .form-group label{
   font-weight: normal;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: .5rem;
 }
 
 #contact-form .form-group input,#contact-form .form-group textarea{
-  padding: 10px;
+  padding: 1rem;
   width: 100%;
   border: 1px #dddddd solid;
 }
 
 #contact-form .form-group textarea{
-  height: 200px;
+  height: 20rem;
 }
 
 #contact-form .form-group input:focus,#contact-form .form-group textarea:focus{
@@ -352,12 +352,21 @@ border-radius: 10px;
 #main-footer{
   background: #212121;
   color: #fff;
+  
+}
+
+#main-footer .my-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
-#main-footer .social i{
+
+#main-footer .social a:first-child{
   margin-right: 1.6rem;
+}
+
+#main-footer .social i{
+
   padding: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
