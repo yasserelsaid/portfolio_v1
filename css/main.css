@@ -395,6 +395,7 @@ border-radius: 10px;
   transform: translate(-50%,-50%) scale(.25);
   transition: all .5s .2s;
 
+
 }
 
 /* open states */
@@ -424,6 +425,7 @@ grid-gap: 1rem; */
 
 .popup-left img{
   width: 100%;
+
 }
 .popup-right{
  flex: 1;
