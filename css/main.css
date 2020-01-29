@@ -21,6 +21,7 @@ body{
  font-family: 'Roboto', sans-serif;  
   line-height: 1.4;
   font-size: 1.6rem;
+  position: relative;
 
 }
 /* font-family: 'Roboto', sans-serif;  */
@@ -134,6 +135,7 @@ backdrop-filter: blur(100px);
 
 
 }
+
 .logo{
   margin: 0;
   font-family: 'Roboto', sans-serif; 
@@ -157,6 +159,10 @@ backdrop-filter: blur(100px);
   color: var(--my-primary-color);
 
 }
+/* 
+.active{
+   color: var(--my-primary-color);
+} */
 
 /* showcase */
 
@@ -513,10 +519,10 @@ color: var(--my-primary-color);
 color: red;
 }
 #popup-paint h2 span:nth-child(2){
-color: blue;
+color: lightseagreen;
 }
 #popup-paint h2 span:nth-child(3){
-color: green;
+color: limegreen;
 }
 #popup-paint h2 span:nth-child(4){
 color: hotpink;

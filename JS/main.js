@@ -6,6 +6,9 @@ window.addEventListener('scroll', function(){
   }
 });
 
+
+
+
 //smooth scrolling
 
 // $('#navbar a, .my-btn').on('click', function(event){
