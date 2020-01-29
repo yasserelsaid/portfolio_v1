@@ -17,15 +17,17 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif; 
+
+ font-family: 'Roboto', sans-serif;  
   line-height: 1.4;
   font-size: 1.6rem;
 
 }
+/* font-family: 'Roboto', sans-serif;  */
 
 
 a,a:hover{
-  text-decoration: none;
+  text-decoration: none; 
   color: #fff;
 }
 
@@ -58,6 +60,7 @@ p{
   font-size: 3rem;
   margin: 2.4rem 0;
   line-height: 1.1;
+ 
 }
 
 .my-btn{
@@ -125,11 +128,15 @@ justify-content: space-between;
 align-items: center;
 z-index: 1;
 padding: 1.5rem 5%;
+font-family: 'Montserrat', sans-serif;
+backdrop-filter: blur(100px);
+-webkit-backdrop-filter: blur(100px);
 
 
 }
 .logo{
   margin: 0;
+  font-family: 'Roboto', sans-serif; 
 }
 
 #navbar ul{
@@ -188,6 +195,7 @@ padding: 1.5rem 5%;
   /* width: 100%; */
   background: rgba(0,0,0,0.2);
   border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
 }
 /* svg animation */
 #elsaid{
@@ -239,6 +247,26 @@ padding: 1.5rem 5%;
 }
 
 
+/* about */
+#about p{
+  font-size: 2rem;
+}
+#about p:nth-child(4){
+  text-align: center;
+  margin-top: 3rem;
+}
+.resume-link, a.resume-link:visited{
+  color:var(--my-primary-color);
+  text-decoration: none;
+
+}
+.resume-link:hover{
+  text-decoration: underline;
+}
+
+
+
+/* skills */
 #skills .items{
   display: grid;
   grid-template-columns: repeat(3,1fr);

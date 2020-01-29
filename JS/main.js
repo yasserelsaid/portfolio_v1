@@ -1,6 +1,6 @@
 window.addEventListener('scroll', function(){
   if(window.scrollY > 150){
-    document.querySelector('#navbar').style.opacity=0.9;
+    document.querySelector('#navbar').style.opacity=0.88;
   }else{
     document.querySelector('#navbar').style.opacity=1;
   }
