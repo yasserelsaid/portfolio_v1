@@ -154,8 +154,8 @@ backdrop-filter: blur(100px);
 }
 
 #navbar ul li a:hover{
-  background: var(--my-primary-color);
-  border-radius: 5px;
+  color: var(--my-primary-color);
+
 }
 
 /* showcase */
