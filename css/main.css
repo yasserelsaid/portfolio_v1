@@ -123,19 +123,25 @@ p{
 display: flex;
 position: sticky;
 top: 0;
-background: #1b1b1b;
+/* background: rgba(27,27,27,0); */
 color: #fff;
 justify-content: space-between;
 align-items: center;
 z-index: 1;
 padding: 1.5rem 5%;
 font-family: 'Montserrat', sans-serif;
-backdrop-filter: blur(100px);
--webkit-backdrop-filter: blur(100px);
+/* backdrop-filter: blur(100px); */
+/* -webkit-backdrop-filter: blur(100px); */
+
 
 
 }
-
+.solid{
+  background: #1b1b1b;
+  opacity: 0.88;
+  transition: background-color 0.7s ease ;
+  backdrop-filter: blur(100px);
+}
 .logo{
   margin: 0;
   font-family: 'Roboto', sans-serif; 
@@ -381,6 +387,21 @@ border-radius: 10px;
   border-color: var(--my-primary-color);
 }
 
+
+/* contact info */
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact-box{
+  display: flex;
+  align-items: center
+}
+.contact-box i{
+  margin-right: 0.5rem;
+}
 /* footer */
 
 #main-footer{

@@ -25,6 +25,8 @@
     margin-bottom: .4rem;
    }
 }
+@media(max-width:768px){
+
 
   #skills .items{
     grid-template-columns: repeat(2,1fr);
@@ -35,14 +37,21 @@
     grid-template-columns:1fr;
   }
 
-  .popup-content{
+ 
+
+
+.popup-content{
+  width: 90%;
+}
+}
+
+.popup-content{
   flex-direction: column;
   align-items: center;
-  width: 90%;
+ 
   }
 
-
-/* changing order */
+  /* changing order */
 
 .popup-right{
   order: 1;

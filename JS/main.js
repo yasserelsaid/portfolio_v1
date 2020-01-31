@@ -1,8 +1,8 @@
 window.addEventListener('scroll', function(){
   if(window.scrollY > 150){
-    document.querySelector('#navbar').style.opacity=0.88;
+   $('#navbar').addClass('solid');
   }else{
-    document.querySelector('#navbar').style.opacity=1;
+    $('#navbar').removeClass('solid');
   }
 });
 
