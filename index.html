@@ -25,7 +25,7 @@
   <title>Yasser's Portfolio</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="0" id="home">
+<body data-spy="scroll" data-target="#navbar" id="home">
 
   <nav id="navbar">
 
@@ -537,11 +537,14 @@
 
   <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
 
-  <!-- smooth scroll -->
-  <script src="./JS/smooth-scroll.js"></script>
-  <script>
-    var scroll = new SmoothScroll('a[href*="#"]');
-  </script>
+
+
+
+  
+
+    <!-- scroll spy -->
+<script>$('body').scrollspy({ target: '#navbar' })
+</script>
 
   <script src="./JS/main.js"></script>
   
