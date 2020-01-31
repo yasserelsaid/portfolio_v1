@@ -9,24 +9,8 @@ window.addEventListener('scroll', function(){
 
 
 
-//smooth scrolling
 
-// $('#navbar a, .my-btn').on('click', function(event){
-//   if(this.hash!==''){
-//     event.preventDefault();
-
-//     const hash = this.hash;
-
-//     $('html, body').animate(
-//       {
-//         scrollTop: $(hash).offset().top -100
-//       },
-//       800
-//     );
-//   }
-
-
-// });
+// this is to get the length of the ELSAID svg
 
 // const elsaid = document.querySelectorAll('#elsaid path');
 

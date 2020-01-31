@@ -6,9 +6,9 @@
     --my-primary-color: #b99e00;
 
   }
-  html{
+  /* html{
     scroll-behavior: smooth;
-  }
+  } */
   
 *{
   box-sizing: border-box;
