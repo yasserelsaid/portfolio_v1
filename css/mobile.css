@@ -43,7 +43,14 @@
 .popup-content{
   width: 90%;
 }
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+align-items: center;
 }
+
 
 .popup-content{
   flex-direction: column;
