@@ -131,8 +131,9 @@ p{
 #navbar{
 display: flex;
 justify-content: space-between;
-position: sticky;
+position: fixed;
 top: 0; 
+width: 100%;
 color: #fff;
 align-items: center;
 z-index: 1;
@@ -203,8 +204,8 @@ color: var(--my-primary-color);
   top: 70px;
   left: 0; */
     
-  background-color: rgba(0,0,0,0.6);
-  margin-top: -70px;
+  background-color: rgba(0,0,0,0.7);
+
 
   
 }
