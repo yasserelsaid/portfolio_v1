@@ -154,14 +154,13 @@ color: var(--my-primary-color);
 }
 
 #navbar ul li a{
-  color: #fff;
+
   padding: 1rem;
   margin: 0 .5rem;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover #navbar ul li a:active{
   color: var(--my-primary-color);
-
 }
 /* showcase */
 
