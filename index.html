@@ -7,18 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="./img/logoIcon.png" type="image/icon type">
 
+  <!-- animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
 <!-- jquery scroll spy -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
 
 <!-- bootstrap js scroll spy -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
 
 <!-- jquery carousel  -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 
 <!-- bootstrap js carousel -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 
 <!-- bootstrap css -->
@@ -30,7 +36,7 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
   <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
 
 <!-- main js -->
-  <script src="./JS/main.js"></script>
+  <script src="./JS/main.js" defer></script>
 
 <!--main styling -->
   <link rel="stylesheet" href="css/main.css">
@@ -170,7 +176,7 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
           <div class="project-name text-center py-1">
             Archery Hub Website
           </div>
-          <div class="project-content">
+          <div class="project-content" data-aos="fade-right">
 
             <figure class="project-showcase">
               <img class="project-img" src="./img/archery0a.jpg" alt="">
@@ -190,7 +196,7 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
           <div class="project-name text-center py-1">
             Personal Portfolio Website
           </div>
-          <div class="project-content">
+          <div class="project-content" data-aos="fade-left" >
             <figure class="project-showcase">
               <img class="project-img" src="./img/portfolio0.jpg" alt="">
               <figcaption class="project-caption">
@@ -206,7 +212,7 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
           <div class="project-name text-center py-1">
             Paint For Kids
           </div>
-          <div class="project-content">
+          <div class="project-content" data-aos="fade-right">
             <figure class="project-showcase">
               <img class="project-img" src="./img/paintdesktop.png" alt="">
               <figcaption class="project-caption">
@@ -222,7 +228,7 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
           <div class="project-name text-center py-1">
             Restraunt Delivery System
           </div>
-          <div class="project-content">
+          <div class="project-content" data-aos="fade-left">
             <figure class="project-showcase">
               <img class="project-img" src="./img/delivery0.png" alt="">
               <figcaption class="project-caption">
@@ -548,6 +554,13 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
 
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:250,
+      duration:1000
+    });
+  </script>
 </body>
 
 </html>
