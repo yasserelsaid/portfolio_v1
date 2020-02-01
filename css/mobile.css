@@ -73,7 +73,7 @@ align-items: center;
 #navbar ul li a:hover{
   color: #fff;
 }
-#navbar ul li a:hover,#navbar ul li a:active{
+#navbar ul li a:hover, #navbar ul li a:active{
   color: var(--my-primary-color);
 }
 
