@@ -26,6 +26,9 @@
    }
 }
 @media(max-width:768px){
+#showcase{
+  background-attachment: fixed;
+}
 
 
   #skills .items{
@@ -67,4 +70,7 @@ align-items: center;
 
 .popup-left{
   order: 2;
+}
+
+
 }
