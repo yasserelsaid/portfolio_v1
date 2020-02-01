@@ -132,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #navbar .active{
-color: var(--my-primary-color);
+color: var(--my-primary-color)!important;
 }
 .solid{
   background: #1b1b1b;
