@@ -27,9 +27,9 @@ body{
 /* font-family: 'Roboto', sans-serif;  */
 
 
-a,a:hover{
+a,a:hover,a:visited,a:focus{
   text-decoration: none; 
-  color: #fff;
+  color: #fff; 
 }
 
 p{
@@ -279,7 +279,7 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-top: 3rem;
 }
-.resume-link, a.resume-link:visited{
+.resume-link, .resume-link:visited, .resume-link:active, .resume-link:focus{
   color:var(--my-primary-color);
   text-decoration: none;
 
@@ -501,7 +501,7 @@ grid-gap: 1rem; */
   text-align: center;
 }
 
-.popup-close{
+a.popup-close{
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
