@@ -7,25 +7,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="./img/logoIcon.png" type="image/icon type">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- jquery scroll spy -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- bootstrap js scroll spy -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- jquery carousel  -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<!-- bootstrap js carousel -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+<!-- bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+<!-- font awsome -->
+  <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
 
+<!-- main js -->
+  <script src="./JS/main.js"></script>
+
+<!--main styling -->
   <link rel="stylesheet" href="css/main.css">
+  <!-- mobile styling -->
   <link rel="stylesheet" media=" screen and (max-width:1270px)" href="css/mobile.css">
-
-
-
-
-
   <title>Yasser's Portfolio</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbar" id="home">
+<body id="home" data-spy="scroll" data-target="#navbar">
 
   <nav id="navbar">
 
@@ -36,11 +50,11 @@
       </h1>
     </a>
 
-    <ul class="navbar-nav">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact-form">Contact</a></li>
+    <ul>
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a  class="nav-link" href="#skills">Skills</a></li>
+      <li><a  class="nav-link" href="#projects">Projects</a></li>
+      <li><a  class="nav-link" href="#contact-form">Contact</a></li>
     </ul>
 
   </nav>
@@ -533,22 +547,6 @@
 
     </div>
   </div>
-
-
-
-  <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
-
-
-
-
-  
-
-    <!-- scroll spy -->
-<script>$('body').scrollspy({ target: '#navbar' })
-</script>
-
-  <script src="./JS/main.js"></script>
-  
 </body>
 
 </html>
