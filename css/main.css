@@ -172,21 +172,30 @@ font-family: 'Montserrat', sans-serif;
 
 /* showcase */
 
-#showcase{
-  background: #333 url('../img/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg') no-repeat center center/cover fixed;
-  height: 100vh;
-  color: #fff;
+ #showcase::before{
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("../img/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   
   /* margin-top: -78px; */
 }
-
-#showcase .showcase-content{
+ #showcase{
   display: flex;
   flex-direction: column;
   /* text-align: center; */
   justify-content: center;
   align-items: flex-start;
-  height: 100%;
+  height: 100vh;
   padding: 0 5%;
   /* overlay */
   /* position: absolute;
@@ -200,7 +209,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-#showcase .showcase-content .lead{
+ #showcase .lead{
   font-size: 2rem;
   margin-bottom: 3rem;
   padding: 0.5rem 1rem;
@@ -208,16 +217,17 @@ font-family: 'Montserrat', sans-serif;
   background: rgba(0,0,0,0.2);
   border-radius: 3px;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
-#showcase .social i{
+  #showcase .social i{
 
   padding: 1rem;
   /* border: 2px #fff solid;
   border-radius: 50%; */
 }
 
-#showcase .social i:hover{
+ #showcase .social i:hover{
   color: var(--my-primary-color);
 }
 
