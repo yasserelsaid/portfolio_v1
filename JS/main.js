@@ -1,13 +1,11 @@
 window.addEventListener('scroll', function(){
+
   if(window.scrollY > 150){
    $('#navbar').addClass('solid');
   }else{
     $('#navbar').removeClass('solid');
   }
 });
-
-// scroll spy
-
 
 
 

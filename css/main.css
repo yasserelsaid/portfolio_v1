@@ -4,6 +4,7 @@
 /* 236FB2 */
 :root{
     --my-primary-color: #b99e00;
+    --my-primary-color-light:rgb(255, 230, 0);
 
   }
   html{
@@ -57,11 +58,19 @@ p{
   font-weight: 600;
 }
 
+
 .my-m-heading{
   font-size: 3rem;
   margin: 2.4rem 0;
   line-height: 1.1;
+  
+
  
+}
+
+.center-heading{
+  display: flex;
+  justify-content: center;
 }
 
 .my-btn{
@@ -200,16 +209,29 @@ color: var(--my-primary-color);
   
 }
 
+#showcase .first-name{
+  /* display: inline-block;
+  background-image: linear-gradient(to right, #ffd900,#fff8d2);
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: var(--my-primary-color);
+
+}
+
 
  #showcase .lead{
   font-size: 2rem;
   margin-bottom: 3rem;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  
   /* width: 100%; */
-  background: rgba(0,0,0,0.2);
+  display: inline-block;
+  background-image: linear-gradient(to right, rgb(255, 230, 0),#ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
   border-radius: 3px;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  
 }
 
   #showcase .social i{
