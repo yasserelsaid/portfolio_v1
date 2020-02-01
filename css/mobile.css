@@ -27,7 +27,7 @@
 }
 @media(max-width:768px){
 #showcase{
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 
