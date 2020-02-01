@@ -7,9 +7,9 @@
     --my-primary-color-light:rgb(255, 230, 0);
 
   }
-  html{
+  /* html{
     scroll-behavior: smooth;
-  }
+  } */
   
 *{
   box-sizing: border-box;
