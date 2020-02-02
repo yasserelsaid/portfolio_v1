@@ -304,7 +304,7 @@ color: var(--my-primary-color);
   text-align: center;
   margin-top: 3rem;
 }
-.resume-link, .resume-link:visited, .resume-link:active, .resume-link:focus{
+a.resume-link, a.resume-link:visited, a.resume-link:active, a.resume-link:focus{
   color:var(--my-primary-color);
   text-decoration: none;
 
