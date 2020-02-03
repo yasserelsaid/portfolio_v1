@@ -84,7 +84,7 @@ p{
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  
+  font-family: roboto, sans-serif;
   
 }
 
@@ -113,7 +113,7 @@ p{
   color: #f4f4f4;
 }
 .bg-light{
-  background: #f4f4f4;
+  background: #fff;
   color: #333;
 }
 .bg-primary{
@@ -541,6 +541,7 @@ a.popup-close{
   display: inline-block;
   line-height: 1;
   color: #000;
+  font-family: roboto, sans-serif;
 }
 .popup-close:hover{
 color: var(--my-primary-color);
