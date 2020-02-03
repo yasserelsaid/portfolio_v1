@@ -19,10 +19,11 @@
 
 body{
 
- font-family: 'Roboto', sans-serif;  
+ 
   line-height: 1.4;
   font-size: 1.6rem;
   position: relative;
+  font-family: 'Montserrat', sans-serif; 
 
 }
 /* font-family: 'Roboto', sans-serif;  */
@@ -63,6 +64,7 @@ p{
   font-size: 3rem;
   margin: 2.4rem 0;
   line-height: 1.1;
+  font-weight: 600;
   
 
  
@@ -138,7 +140,7 @@ color: #fff;
 align-items: center;
 z-index: 1;
 padding: 1.5rem 5%;
-font-family: 'Montserrat', sans-serif; 
+
 }
 
 #navbar .active{
@@ -219,6 +221,7 @@ color: var(--my-primary-color);
   -webkit-background-clip: text;
   color: transparent; */
   color: var(--my-primary-color);
+  font-family: roboto, sans-serif;
 
 }
 
@@ -234,7 +237,7 @@ color: var(--my-primary-color);
   -webkit-background-clip: text;
   color: transparent;
   border-radius: 3px;
-  font-family: 'Montserrat', sans-serif;
+
   
 }
 
@@ -302,6 +305,7 @@ color: var(--my-primary-color);
 /* about */
 #about p{
   font-size: 2rem;
+ 
 }
 #about p:nth-child(4){
   text-align: center;
