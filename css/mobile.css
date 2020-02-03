@@ -10,6 +10,14 @@
   #navbar .logo{
     display: none;
   }
+
+  #navbar ul li a:hover{
+    color: #fff;
+  
+  }
+  #navbar ul li a:active{
+    color: var(--my-primary-color);
+  }
   #showcase {
     align-items: center;
     text-align: center;

@@ -168,10 +168,9 @@ color: var(--my-primary-color);
   padding: 1rem;
   margin: 0 .5rem;
 }
-@media (hover: hover){
 #navbar ul li a:hover{
   color: var(--my-primary-color);
-}
+
 }
 
 /* showcase */
