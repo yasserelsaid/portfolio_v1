@@ -5,6 +5,8 @@
     padding: 1.75rem 5%;
     justify-content: center;
   }
+
+
   #navbar .logo{
     display: none;
   }
@@ -12,6 +14,9 @@
     align-items: center;
     text-align: center;
  }
+
+
+
   #projects .two-buttons{
     display: block;
   }
@@ -69,3 +74,4 @@ align-items: center;
 }
 
 }
+
