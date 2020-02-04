@@ -97,16 +97,16 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
 
   <section id="about" class="section bg-light py-1">
 
-    <div class="my-container" data-aos="fade-up">
+    <div class="my-container">
     
-      <h2 class="my-m-heading text-center pt-3">ABOUT ME</h2>
+      <h2 class="my-m-heading text-center pt-3" data-aos="fade-left">ABOUT ME</h2>
 
-      <p>I am a Computer Science student, currently studying at the Lassonde School of Engineering at York University.
+      <p data-aos="fade-right">I am a Computer Science student, currently studying at the Lassonde School of Engineering at York University.
       </p>
-      <p>
+      <p data-aos="fade-left">
         I am interested in full stack Web Development, Artificial Intelligence and UI / UX Design.
       </p>
-      <p>
+      <p data-aos="fade-right">
         Take a look at my <a class="resume-link" href="./img/Yasser's-Resume.pdf" target="_blank">resume</a>.
       </p>
 
@@ -116,10 +116,10 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
 
   <section id="skills" class="section bg-light py-1">
 
-    <div class="my-container" data-aos="fade-up">
-      <h2 class="my-m-heading text-center pt-3">SKILLS </h2>
+    <div class="my-container">
+      <h2 class="my-m-heading text-center pt-3" data-aos="fade-left">SKILLS </h2>
 
-      <div class="skill-items">
+      <div class="skill-items" data-aos="fade-right">
         <div class="skill-item">
           <img src="./img/html5-icon-12117 (1).png" alt="">
           <h4>HTML5</h4>
@@ -551,7 +551,8 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="ano
   <script>
     AOS.init({
       offset:250,
-      duration:1000
+      duration:1000,
+      once:true
     });
   </script>
 </body>
