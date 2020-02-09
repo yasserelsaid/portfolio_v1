@@ -29,6 +29,9 @@ a,a:hover,a:visited,a:focus{
 p{
   margin:1.2rem 0;
 }
+i{
+  margin-right: 0.25rem;
+}
 
 /* utility classes */
 .my-container{
@@ -174,7 +177,7 @@ color: var(--my-primary-color);
 
  #showcase .lead{
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin: 1.5rem 0;
   display: inline-block;
   background-image: linear-gradient(to right, rgb(255, 230, 0),#ffffff);
   -webkit-background-clip: text;
@@ -189,6 +192,20 @@ color: var(--my-primary-color);
 
  #showcase .social i:hover{
   color: var(--my-primary-color);
+}
+
+#showcase .my-btn-trans{
+  color: rgb(202, 189, 4);
+  background-color: transparent;
+  border: var(--my-primary-color) solid 2px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s;
+}
+
+#showcase .my-btn-trans:hover{
+  background-color: var(--my-primary-color);
+  color: #fff;
+
 }
 
 /* svg animation of elsaid */
@@ -376,9 +393,7 @@ border-radius: 10px;
   display: flex;
   align-items: center
 }
-.contact-box i{
-  margin-right: 0.5rem;
-}
+
 /* footer */
 
 #main-footer{
