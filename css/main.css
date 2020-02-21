@@ -110,10 +110,9 @@ padding: 1rem 5%;
 color: var(--my-primary-color);
 }
 .solid{
-  background: #1b1b1b;
-  opacity: 0.88;
+  background: rgba(0,0,0,0.8);
   transition: background-color 0.7s ease ;
-  backdrop-filter: blur(100px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 .logo{
   margin: 0;
