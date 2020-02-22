@@ -262,18 +262,6 @@ color: var(--my-primary-color);
   font-size: 2rem;
  
 }
-#about p:nth-child(4){
-  text-align: center;
-  margin-top: 3rem;
-}
-a.resume-link, a.resume-link:visited, a.resume-link:active, a.resume-link:focus{
-  color:var(--my-primary-color);
-  text-decoration: none;
-
-}
-.resume-link:hover{
-  text-decoration: underline;
-}
 
 /* skills */
 #skills .skill-items{
