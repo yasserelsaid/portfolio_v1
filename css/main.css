@@ -295,7 +295,13 @@ color: var(--my-primary-color);
 
 #projects .projects .project .project-name{
   font-size: 2.5rem;
+  height: 84.4px;
 }
+.project-name img{
+  height: 40px;
+  transform: translateY(-7px);
+}
+
 #projects .projects .project .project-card{
 box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 padding: 10px;

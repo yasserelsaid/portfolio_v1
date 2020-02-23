@@ -17,7 +17,6 @@
  }
 
 
-
   #projects .two-buttons{
     display: block;
   }
@@ -42,6 +41,9 @@
     grid-template-columns:1fr;
   }
 
+  #projects .projects .project .project-name{
+  height: auto;
+}
  
 
 
