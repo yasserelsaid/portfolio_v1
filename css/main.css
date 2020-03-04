@@ -190,7 +190,7 @@ color: var(--my-primary-color);
 }
 
  #showcase .social i:hover{
-  color: var(--my-primary-color);
+  color: #d4b607;
 }
 
 #showcase .my-btn-trans{
