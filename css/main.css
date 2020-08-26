@@ -266,12 +266,12 @@ i {
 #skills .skill-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #skills .skill-items .skill-item {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #skills .skill-items .skill-item img {
@@ -334,9 +334,8 @@ i {
   margin-bottom: 1rem;
   transition: all 0.5s;
   transform: scale(1.02);
-  /* width: 400px; */
-  height: 270px;
 }
+
 #projects .project-showcase:hover .project-img {
   transform: scale(1);
   filter: blur(3px) brightness(75%);
@@ -485,4 +484,14 @@ a.popup-close {
 #popup-archery .popup-close:hover {
   color: #d17b24;
 }
-/* specaial styling for paint popup */
+/* specaial styling for ivory popup */
+#popup-ivory h2 {
+  color: #9c27b0;
+}
+#popup-ivory h2 span {
+  color: #333;
+}
+
+#popup-ivory .popup-close:hover {
+  color: #9c27b0;
+}
