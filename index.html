@@ -1,378 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./img/logo.png" type="image/icon type" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="./img/logo.png" type="image/icon type">
+    <!-- animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <!-- animate on scroll -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- jquery scroll spy -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-<!-- jquery scroll spy -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
+    <!-- bootstrap js scroll spy -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-<!-- bootstrap js scroll spy -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
+    <!-- jquery carousel  -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-<!-- jquery carousel  -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+    <!-- bootstrap js carousel -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      defer
+    ></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 
-<!-- bootstrap js carousel -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
-<!-- bootstrap css -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome -->
+    <script
+      src="https://kit.fontawesome.com/2d6542cae6.js"
+      crossorigin="anonymous"
+    ></script>
 
-<!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-<!-- font awsome -->
-  <script src="https://kit.fontawesome.com/2d6542cae6.js" crossorigin="anonymous"></script>
+    <!-- main js -->
+    <script src="./JS/main.js" defer></script>
 
-<!-- main js -->
-  <script src="./JS/main.js" defer></script>
+    <!--main styling -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- mobile styling -->
+    <link
+      rel="stylesheet"
+      media=" screen and (max-width:1270px)"
+      href="css/mobile.css"
+    />
+    <title>Yasser's Portfolio</title>
+  </head>
 
-<!--main styling -->
-  <link rel="stylesheet" href="css/main.css">
-  <!-- mobile styling -->
-  <link rel="stylesheet" media=" screen and (max-width:1270px)" href="css/mobile.css">
-  <title>Yasser's Portfolio</title>
-</head>
+  <body id="home" data-spy="scroll" data-target="#navbar">
+    <nav id="navbar">
+      <a href="#home" class="scroll">
+        <h1 class="logo"><span class="my-text-primary"> Y</span>E</h1>
+      </a>
 
-<body id="home" data-spy="scroll" data-target="#navbar">
-  <nav id="navbar">
-
-    <a href="#home" class="scroll">
-      <h1 class="logo">
-        <span class="my-text-primary">
-          Y</span>E
-      </h1>
-    </a>
-    
-    <ul>
-      <li><a class="nav-link scroll" href="#about">About</a></li>
-      <li><a  class="nav-link scroll" href="#skills">Skills</a></li>
-      <li><a  class="nav-link scroll" href="#projects">Work</a></li>
-      <li><a  class="nav-link scroll" href="#contact-form">Contact</a></li>
-    </ul>
-
-  </nav>
-
+      <ul>
+        <li><a class="nav-link scroll" href="#about">About</a></li>
+        <li><a class="nav-link scroll" href="#skills">Skills</a></li>
+        <li><a class="nav-link scroll" href="#projects">Work</a></li>
+        <li><a class="nav-link scroll" href="#contact-form">Contact</a></li>
+      </ul>
+    </nav>
 
     <header id="showcase">
       <h1 class="my-l-heading">
         <span class="first-name">YASSER </span>
-        <svg id="elsaid" width="204" height="50" viewBox="0 0 204 50"
-          fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M27 26.9688H7.28125V43.0938H30.1875V48H1.28125V2.5H29.875V7.4375H7.28125V22.0625H27V26.9688Z"
-            stroke="white" stroke-width="2" />
-          <path d="M43.6875 43.0938H65.25V48H37.6562V2.5H43.6875V43.0938Z" stroke="white" stroke-width="2" />
+        <svg
+          id="elsaid"
+          width="204"
+          height="50"
+          viewBox="0 0 204 50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M27 26.9688H7.28125V43.0938H30.1875V48H1.28125V2.5H29.875V7.4375H7.28125V22.0625H27V26.9688Z"
+            stroke="white"
+            stroke-width="2"
+          />
+          <path
+            d="M43.6875 43.0938H65.25V48H37.6562V2.5H43.6875V43.0938Z"
+            stroke="white"
+            stroke-width="2"
+          />
           <path
             d="M85.5 27.7188C80.3542 26.2396 76.6042 24.4271 74.25 22.2812C71.9167 20.1146 70.75 17.4479 70.75 14.2812C70.75 10.6979 72.1771 7.73958 75.0312 5.40625C77.9062 3.05208 81.6354 1.875 86.2188 1.875C89.3438 1.875 92.125 2.47917 94.5625 3.6875C97.0208 4.89583 98.9167 6.5625 100.25 8.6875C101.604 10.8125 102.281 13.1354 102.281 15.6562H96.25C96.25 12.9062 95.375 10.75 93.625 9.1875C91.875 7.60417 89.4062 6.8125 86.2188 6.8125C83.2604 6.8125 80.9479 7.46875 79.2812 8.78125C77.6354 10.0729 76.8125 11.875 76.8125 14.1875C76.8125 16.0417 77.5938 17.6146 79.1562 18.9062C80.7396 20.1771 83.4167 21.3438 87.1875 22.4062C90.9792 23.4688 93.9375 24.6458 96.0625 25.9375C98.2083 27.2083 99.7917 28.6979 100.812 30.4062C101.854 32.1146 102.375 34.125 102.375 36.4375C102.375 40.125 100.938 43.0833 98.0625 45.3125C95.1875 47.5208 91.3438 48.625 86.5312 48.625C83.4062 48.625 80.4896 48.0312 77.7812 46.8438C75.0729 45.6354 72.9792 43.9896 71.5 41.9062C70.0417 39.8229 69.3125 37.4583 69.3125 34.8125H75.3438C75.3438 37.5625 76.3542 39.7396 78.375 41.3438C80.4167 42.9271 83.1354 43.7188 86.5312 43.7188C89.6979 43.7188 92.125 43.0729 93.8125 41.7812C95.5 40.4896 96.3438 38.7292 96.3438 36.5C96.3438 34.2708 95.5625 32.5521 94 31.3438C92.4375 30.1146 89.6042 28.9062 85.5 27.7188Z"
-            stroke="white" stroke-width="2" />
+            stroke="white"
+            stroke-width="2"
+          />
           <path
             d="M135.219 36.125H116.156L111.875 48H105.688L123.062 2.5H128.312L145.719 48H139.562L135.219 36.125ZM117.969 31.1875H133.438L125.688 9.90625L117.969 31.1875Z"
-            stroke="white" stroke-width="2" />
-          <path d="M158.281 48H152.281V2.5H158.281V48Z" stroke="white" stroke-width="2" />
+            stroke="white"
+            stroke-width="2"
+          />
+          <path
+            d="M158.281 48H152.281V2.5H158.281V48Z"
+            stroke="white"
+            stroke-width="2"
+          />
           <path
             d="M169.281 48V2.5H182.125C186.083 2.5 189.583 3.375 192.625 5.125C195.667 6.875 198.01 9.36458 199.656 12.5938C201.323 15.8229 202.167 19.5312 202.188 23.7188V26.625C202.188 30.9167 201.354 34.6771 199.688 37.9062C198.042 41.1354 195.677 43.6146 192.594 45.3438C189.531 47.0729 185.958 47.9583 181.875 48H169.281ZM175.281 7.4375V43.0938H181.594C186.219 43.0938 189.812 41.6562 192.375 38.7812C194.958 35.9062 196.25 31.8125 196.25 26.5V23.8438C196.25 18.6771 195.031 14.6667 192.594 11.8125C190.177 8.9375 186.74 7.47917 182.281 7.4375H175.281Z"
-            stroke="white" stroke-width="2" />
+            stroke="white"
+            stroke-width="2"
+          />
         </svg>
       </h1>
-      
-      <p class="lead">
-FULL STACK DEVELOPER      </p>
 
-      <a href="./img/Yasser's-Resume.pdf" class="my-btn my-btn-trans" target="_blank"><i class="fas fa-file-alt" ></i> View Resume</a>
+      <p class="lead">FULL STACK DEVELOPER</p>
 
-      
+      <a href="./img/resume.pdf" class="my-btn my-btn-trans" target="_blank"
+        ><i class="fas fa-file-alt"></i> View Resume</a
+      >
 
       <div class="social">
-        <a href="https://www.linkedin.com/in/yasserelsaid/" target="_blank"><i class="fab fa-linkedin fa-2x" data-aos="fade-right" data-aos-delay="300"  data-aos-offset="-100"></i></a>
-        <a href="https://github.com/yasserelsaid" target="_blank" ><i class="fab fa-github fa-2x" data-aos="fade-right" data-aos-offset="-100"></i></a>
+        <a href="https://www.linkedin.com/in/yasserelsaid/" target="_blank"
+          ><i
+            class="fab fa-linkedin fa-2x"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-offset="-100"
+          ></i
+        ></a>
+        <a href="https://github.com/yasserelsaid" target="_blank"
+          ><i
+            class="fab fa-github fa-2x"
+            data-aos="fade-right"
+            data-aos-offset="-100"
+          ></i
+        ></a>
       </div>
-      
     </header>
 
+    <section id="about" class="section bg-light py-1">
+      <div class="my-container">
+        <h2 class="my-m-heading text-center pt-3" data-aos="fade-left">
+          ABOUT ME
+        </h2>
 
-  <section id="about" class="section bg-light py-1">
-
-    <div class="my-container">
-    
-      <h2 class="my-m-heading text-center pt-3" data-aos="fade-left">ABOUT ME</h2>
-
-      <p data-aos="fade-right">Hey! Welcome to my website. I am a Computer Science student, currently in my third year at the Lassonde School of Engineering at York University in Toronto.
-      </p>
-      <p data-aos="fade-left">
-       I am interested in Web Development and UI / UX Design and I am definitely excited to discover more areas of Computer Science.
-      </p>
-      <p data-aos="fade-right">
-        In my free time, you will probably find me working out or maybe hanging out with friends. I like travelling and meeting new people. I also love to try out new things and make new memories. I am passionate about learning and I aspire to improve myself everday.</p>
-
-    </div>
-
-  </section>
-
-  <section id="skills" class="section bg-light py-1">
-
-    <div class="my-container">
-      <h2 class="my-m-heading text-center pt-3" data-aos="fade-up">SKILLS </h2>
-
-      <div class="skill-items" >
-        <div class="skill-item"  data-aos="fade-up">
-          <img src="./img/html5_icon_12117__1_.jpg" alt="">
-          <h4>HTML5</h4>
-        </div>
-
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="100">
-          <img src="./img/iconfinder_css3_2946_uckRw.jpg" alt="">
-          <h4>CSS3</h4>
-        </div>
-
-        
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="200">
-          <img src="./img/js.jpg" alt="">
-          <h4>Javascript</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="200">
-          <img src="./img/react.jpg" alt="">
-          <h4>React</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="100">
-          <img src="./img/redux.png" alt="">
-          <h4>Redux</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="0">
-          <img src="./img/next.png" alt="">
-          <!-- <h4>Next.js</h4> -->
-        </div>
-
-
-
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="0">
-          <img src="./img/node.png" alt="">
-          <h4>Node.js</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="100">
-          <img src="./img/mongodb.png" alt="">
-          <h4>MongoDB</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="200">
-          <img src="./img/firebase.png" alt="">
-          <h4>Firebase</h4>
-        </div>
-        
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="200">
-          <img src="./img/C++.jpg" alt="">
-          <h4>C++</h4>
-        </div>
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="100">
-          <img src="./img/java.png" alt="">
-          <h4>Java</h4>
-        </div>
-
-
-
-        <div class="skill-item"  data-aos="fade-up" data-aos-delay="0">
-          <img src="./img/git.jpg" alt="">
-          <h4>Git</h4>
-        </div>
-
+        <p data-aos="fade-right">
+          Hey! Welcome to my website. I am a Computer Science student, currently
+          in my third year at the Lassonde School of Engineering at York
+          University in Toronto.
+        </p>
+        <p data-aos="fade-left">
+          I am interested in Web Development and UI / UX Design and I am
+          definitely excited to discover more areas of Computer Science.
+        </p>
+        <p data-aos="fade-right">
+          In my free time, you will probably find me working out or maybe
+          hanging out with friends. I like travelling and meeting new people. I
+          also love to try out new things and make new memories. I am passionate
+          about learning and I aspire to improve myself everday.
+        </p>
       </div>
+    </section>
 
+    <section id="skills" class="section bg-light py-1">
+      <div class="my-container">
+        <h2 class="my-m-heading text-center pt-3" data-aos="fade-up">SKILLS</h2>
 
-  </section>
-
-  <section id="projects" class="section bg-light py-1">
-    <div class="my-container">
-      <h2 class="my-m-heading text-center pt-3 " data-aos="fade-up">Work </h2>
-
-      <div class="projects py-1">
-        <div class="project" data-aos="fade-in">
-          <div class="project-name text-center py-1">
-          Ivory Bohemian Art
-          </div>
-          <div class="project-card" >
-
-            <figure class="project-showcase">
-              <img class="project-img" src="./img/ivoryHome.png"  alt="">
-      
-                  <figcaption class="project-caption">
-                <a href="#popup-ivory" class="my-btn">QUICK VIEW</a>
-              </figcaption>
-            </figure>
-            <div class="two-buttons">
-              <a href="https://next-online-store.yasserelsaid.vercel.app/" class="my-btn text-center" target="_blank"><i class="fa fa-eye" ></i> Visit Website</a>
-              <a href="https://github.com/yasserelsaid/next-online-store" class="my-btn my-btn-dark text-center "
-                target="_blank"><i class="fab fa-github"></i> View on Github</a>
-            </div>
-          </div>
-        </div>
-        <div class="project" data-aos="fade-in">
-          <div class="project-name text-center py-1">
-            <img src="./img/archeryhublogo.jpg" alt="ArcheryHubLogo"> Archery Hub
-          </div>
-          <div class="project-card" >
-
-            <figure class="project-showcase">
-              <img class="project-img" src="./img/archeryhub.webm"  autoplay alt="">
-      
-                  <figcaption class="project-caption">
-                <a href="#popup-archery" class="my-btn">QUICK VIEW</a>
-              </figcaption>
-            </figure>
-            <div class="two-buttons">
-              <a href="https://archeryhub.web.app/" class="my-btn text-center" target="_blank"><i class="fa fa-eye" ></i> Visit Website</a>
-              <a href="https://github.com/yasserelsaid/react-archery-hub" class="my-btn my-btn-dark text-center "
-                target="_blank"><i class="fab fa-github"></i> View on Github</a>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
-      
-
-    </div>
-
-
-
-    
-  </section>
-
-
-  <section id="contact-form" class="section py-1 bg-light">
-    <div class="my-container">
-      <h2 class="my-m-heading text-center pt-3 " data-aos="fade-up">GET IN TOUCH</h2>
-      <p data-aos="fade-up">Please fill out the form below to contact me.</p>
-
-
-
-
-      <form name="contact" method="POST" data-netlify="true" data-aos="fade-up" data-aos-offset="300">
-
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name">
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message</label>
-
-          <textarea name="message" id="message"></textarea>
-        </div>
-
-        <button type="submit" class="my-btn">Submit</button>
-
-      </form>
-
-      <div class="contact-info py-2">
-        <div>
-        <!-- <h3>Contact Info</h3> -->
-        <p>Also, feel free to shoot me a message! </p>
-      </div>
-
-        <div class="contact-box" data-aos="fade-left" data-aos-offset="10">
-
-          <i class="fas fa-phone fa"></i>
-
-          <p> +1 (647) 677 4960 </p>
-
-        </div>
-        <div class="contact-box" data-aos="fade-left" data-aos-offset="10"data-aos-delay="300" >
-
-          <i class="fas fa-envelope fa"></i>
-
-          <p> yelsaid@my.yorku.ca </p>
-
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-
-  <footer id="main-footer" class="py-1">
-    <div class="my-container">
-      <p class="text-center">&copy;2020 Yasser Elsaid - All Rights Reserved</p>
-    </div>
-  </footer>
-
-
-  <!-- archery hub popup -->
-  <div class="popups" id="popup-archery">
-    <div class="popup-content">
-      <div class="popup-left">
-        <div id="archery-slider" class="carousel slide" data-ride="carousel">
-
-          <!--dot nav -->
-          <ol class="carousel-indicators">
-            <li data-target="#archery-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#archery-slider" data-slide-to="1"></li>
-            <li data-target="#archery-slider" data-slide-to="2"></li>
-            <li data-target="#archery-slider" data-slide-to="3"></li>
-          </ol>
-
-          <!-- wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="./img/archery0.png" alt="Archery Hub">
-
-            </div>
-            <div class="item">
-              <img src="./img/archery1.png" alt="Archery Hub">
-
-            </div>
-            <div class="item">
-              <img src="./img/archery2.png" alt="Archery Hub">
-
-            </div>
-            <div class="item">
-              <img src="./img/archery3.png" alt="Archery Hub">
-
-            </div>
-
+        <div class="skill-items">
+          <div class="skill-item" data-aos="fade-up">
+            <img src="./img/html5_icon_12117__1_.jpg" alt="" />
+            <h4>HTML5</h4>
           </div>
 
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/iconfinder_css3_2946_uckRw.jpg" alt="" />
+            <h4>CSS3</h4>
+          </div>
 
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="./img/js.jpg" alt="" />
+            <h4>Javascript</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="./img/react.jpg" alt="" />
+            <h4>React</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/redux.png" alt="" />
+            <h4>Redux</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="0">
+            <img src="./img/next.png" alt="" />
+            <!-- <h4>Next.js</h4> -->
+          </div>
 
-          <!-- controls -->
-          <a href="#archery-slider" class="left carousel-control" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a href="#archery-slider" class="right carousel-control" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="0">
+            <img src="./img/node.png" alt="" />
+            <h4>Node.js</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/mongodb.png" alt="" />
+            <h4>MongoDB</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="./img/firebase.png" alt="" />
+            <h4>Firebase</h4>
+          </div>
 
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="./img/C++.jpg" alt="" />
+            <h4>C++</h4>
+          </div>
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/java.png" alt="" />
+            <h4>Java</h4>
+          </div>
 
+          <div class="skill-item" data-aos="fade-up" data-aos-delay="0">
+            <img src="./img/git.jpg" alt="" />
+            <h4>Git</h4>
+          </div>
         </div>
-
-
-
       </div>
-      <div class="popup-right">
-        <a href="#!" class="popup-close">&times;</a>
-        <div class="popup-description">
-          <h2 class="my-m-heading my-text-primary"><span>Archery</span> Hub</h2>
-          <p>Fully Fledged website that handles booking for an archery academy</p>
-          <p class="tech-used">React | Redux | Node.js | Firebase</p>
+    </section>
 
+    <section id="projects" class="section bg-light py-1">
+      <div class="my-container">
+        <h2 class="my-m-heading text-center pt-3" data-aos="fade-up">Work</h2>
+
+        <div class="projects py-1">
+          <div class="project" data-aos="fade-in">
+            <div class="project-name text-center py-1">Ivory Bohemian Art</div>
+            <div class="project-card">
+              <figure class="project-showcase">
+                <img class="project-img" src="./img/ivoryHome.png" alt="" />
+
+                <figcaption class="project-caption">
+                  <a href="#popup-ivory" class="my-btn">QUICK VIEW</a>
+                </figcaption>
+              </figure>
+              <div class="two-buttons">
+                <a
+                  href="https://ivoryjewelry.shop/"
+                  class="my-btn text-center"
+                  target="_blank"
+                  ><i class="fa fa-eye"></i> Visit Website</a
+                >
+                <a
+                  href="https://github.com/yasserelsaid/next-online-store"
+                  class="my-btn my-btn-dark text-center"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View on Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project" data-aos="fade-in">
+            <div class="project-name text-center py-1">
+              <img src="./img/archeryhublogo.jpg" alt="ArcheryHubLogo" />
+              Archery Hub
+            </div>
+            <div class="project-card">
+              <figure class="project-showcase">
+                <img
+                  class="project-img"
+                  src="./img/archeryhub.webm"
+                  autoplay
+                  alt=""
+                />
+
+                <figcaption class="project-caption">
+                  <a href="#popup-archery" class="my-btn">QUICK VIEW</a>
+                </figcaption>
+              </figure>
+              <div class="two-buttons">
+                <a
+                  href="https://archeryhub.club/"
+                  class="my-btn text-center"
+                  target="_blank"
+                  ><i class="fa fa-eye"></i> Visit Website</a
+                >
+                <a
+                  href="https://github.com/yasserelsaid/react-archery-hub"
+                  class="my-btn my-btn-dark text-center"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View on Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project" data-aos="fade-in">
+            <div class="project-name text-center py-1">RateMyCoursesUBC</div>
+            <div class="project-card">
+              <figure class="project-showcase">
+                <img
+                  class="project-img"
+                  src="./img/RateMyCoursesUBC.png"
+                  autoplay
+                  alt=""
+                />
+                <!-- 
+                <figcaption class="project-caption">
+                  <a href="#popup-archery" class="my-btn">QUICK VIEW</a>
+                </figcaption> -->
+              </figure>
+              <div class="two-buttons">
+                <a
+                  href="https://ratemycoursesubc.com/"
+                  class="my-btn text-center"
+                  target="_blank"
+                  ><i class="fa fa-eye"></i> Visit Website</a
+                >
+                <a
+                  href="https://github.com/yasserelsaid/ubc-courses"
+                  class="my-btn my-btn-dark text-center"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View on Github</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
+    <section id="contact-form" class="section py-1 bg-light">
+      <div class="my-container">
+        <h2 class="my-m-heading text-center pt-3" data-aos="fade-up">
+          GET IN TOUCH
+        </h2>
+        <p data-aos="fade-up">Please fill out the form below to contact me.</p>
 
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-aos="fade-up"
+          data-aos-offset="300"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+
+            <textarea name="message" id="message"></textarea>
+          </div>
+
+          <button type="submit" class="my-btn">Submit</button>
+        </form>
+
+        <div class="contact-info py-2">
+          <div>
+            <!-- <h3>Contact Info</h3> -->
+            <p>Also, feel free to shoot me a message!</p>
+          </div>
+
+          <div class="contact-box" data-aos="fade-left" data-aos-offset="10">
+            <i class="fas fa-phone fa"></i>
+
+            <p>+1 (647) 677 4960</p>
+          </div>
+          <div
+            class="contact-box"
+            data-aos="fade-left"
+            data-aos-offset="10"
+            data-aos-delay="300"
+          >
+            <i class="fas fa-envelope fa"></i>
+
+            <p>yelsaid@my.yorku.ca</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="py-1">
+      <div class="my-container">
+        <p class="text-center">
+          &copy;2020 Yasser Elsaid - All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- archery hub popup -->
+    <div class="popups" id="popup-archery">
+      <div class="popup-content">
+        <div class="popup-left">
+          <div id="archery-slider" class="carousel slide" data-ride="carousel">
+            <!--dot nav -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#archery-slider"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#archery-slider" data-slide-to="1"></li>
+              <li data-target="#archery-slider" data-slide-to="2"></li>
+              <li data-target="#archery-slider" data-slide-to="3"></li>
+            </ol>
+
+            <!-- wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./img/archery0.png" alt="Archery Hub" />
+              </div>
+              <div class="item">
+                <img src="./img/archery1.png" alt="Archery Hub" />
+              </div>
+              <div class="item">
+                <img src="./img/archery2.png" alt="Archery Hub" />
+              </div>
+              <div class="item">
+                <img src="./img/archery3.png" alt="Archery Hub" />
+              </div>
+            </div>
+
+            <!-- controls -->
+            <a
+              href="#archery-slider"
+              class="left carousel-control"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a
+              href="#archery-slider"
+              class="right carousel-control"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+        <div class="popup-right">
+          <a href="#!" class="popup-close">&times;</a>
+          <div class="popup-description">
+            <h2 class="my-m-heading my-text-primary">
+              <span>Archery</span> Hub
+            </h2>
+            <p>
+              Fully Fledged website that handles booking for an archery academy
+            </p>
+            <p class="tech-used">React | Redux | Node.js | Firebase</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
     <!-- ivory popup -->
     <div class="popups" id="popup-ivory">
@@ -381,74 +478,70 @@ FULL STACK DEVELOPER      </p>
           <div id="ivory-slider" class="carousel slide" data-ride="carousel">
             <!--dot nav -->
             <ol class="carousel-indicators">
-              <li data-target="#ivory-slider" data-slide-to="0" class="active"></li>
+              <li
+                data-target="#ivory-slider"
+                data-slide-to="0"
+                class="active"
+              ></li>
               <li data-target="#ivory-slider" data-slide-to="1"></li>
               <li data-target="#ivory-slider" data-slide-to="2"></li>
               <li data-target="#ivory-slider" data-slide-to="3"></li>
             </ol>
-  
+
             <!-- wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="./img/ivory0.png" alt="ivory">
-  
+                <img src="./img/ivory0.png" alt="ivory" />
               </div>
               <div class="item">
-                <img src="./img/ivory1.png" alt="ivory">
-  
+                <img src="./img/ivory1.png" alt="ivory" />
               </div>
               <div class="item">
-                <img src="./img/ivory2.png" alt="ivory">
-  
+                <img src="./img/ivory2.png" alt="ivory" />
               </div>
               <div class="item">
-                <img src="./img/ivory3.png" alt="ivory">
-  
+                <img src="./img/ivory3.png" alt="ivory" />
               </div>
-  
             </div>
-  
-  
-  
+
             <!-- controls -->
-            <a href="#ivory-slider" class="left carousel-control" data-slide="prev">
+            <a
+              href="#ivory-slider"
+              class="left carousel-control"
+              data-slide="prev"
+            >
               <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
-            <a href="#ivory-slider" class="right carousel-control" data-slide="next">
+            <a
+              href="#ivory-slider"
+              class="right carousel-control"
+              data-slide="next"
+            >
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
-  
-  
           </div>
-  
-  
-  
         </div>
         <div class="popup-right">
           <a href="#!" class="popup-close">&times;</a>
           <div class="popup-description">
             <h2 class="my-m-heading">Ivory Bohemian Art</h2>
-            <p> Online store for a jewelry brand</p>
-            <p class="tech-used">React | Next.js | Node.js | MongoDB | Mongoose | Stripe</p>
-  
+            <p>Online store for a jewelry brand</p>
+            <p class="tech-used">
+              React | Next.js | Node.js | MongoDB | Mongoose | Stripe
+            </p>
           </div>
         </div>
-  
-  
       </div>
     </div>
 
-
-  
-  <!-- animate on scroll -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset:250,
-      duration:1000,
-      once:true
-    });
-  </script>
-</body>
-
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
 </html>
