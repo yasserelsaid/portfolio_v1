@@ -497,3 +497,81 @@ a.popup-close {
 #popup-ivory .popup-close:hover {
   color: #9c27b0;
 }
+
+.video-container {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+.img-container {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* work timeline */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+
+#work main {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#work p {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  -o-border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+}
+#work p:before {
+  content: counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 12px;
+  height: 1.5em;
+  width: 3.5rem;
+  background-color: #34435e;
+  text-align: center;
+  line-height: 0.2rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+#work p:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+#work p:nth-child(odd):before {
+  left: 100%;
+  margin-left: -20px;
+}
+
+#work p:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+}
+#work p:nth-child(even):before {
+  right: 100%;
+  margin-right: -20px;
+}
+
+#work p:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#work p:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
